@@ -3,7 +3,7 @@
 Welcome to my personal portfolio!  
 This site showcases my education, skills, projects, and achievements as an Electronics & Communication Engineer at IIT Guwahati.
 
-![Portfolio Screenshot](Portfolio/BingoChat.png)
+![Portfolio Screenshot](Portfolio/portfolio.png)
 
 ---
 
