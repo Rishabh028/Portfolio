@@ -40,7 +40,9 @@ This site showcases my education, skills, projects, and achievements as an Elect
   - Custom images, GIFs, and downloadable PDFs
 
 ---
+## 🚀 Demo
 
+[**Live Demo on GitHub Pages**](https://bingochat.onrender.com/login)  
 
 ---
 
