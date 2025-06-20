@@ -3,7 +3,7 @@
 Welcome to my personal portfolio!  
 This site showcases my education, skills, projects, and achievements as an Electronics & Communication Engineer at IIT Guwahati.
 
-![Portfolio Screenshot](BingoChat.png)
+![Portfolio Screenshot](Portfolio/BingoChat.png)
 
 ---
 
@@ -25,7 +25,7 @@ This site showcases my education, skills, projects, and achievements as an Elect
 
 | Home / Hero Section | Projects Modal | Education & Downloads |
 |---------------------|---------------|-----------------------|
-| ![Hero](ProfilePic.jpg) | ![Project](finflow.png) | ![Education](KV%20LOGO.png) |
+| ![Hero](Portfolio/home.png) | ![Project](Portfolio/project.png) | ![Education](Portfolio/qualification.png) |
 
 ---
 
