@@ -295,3 +295,26 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Scroll-triggered animation for .education-card, .project-card, etc.
+document.addEventListener("DOMContentLoaded", function () {
+  const animatedEls = document.querySelectorAll('[data-animate]');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !entry.target.classList.contains('animated-in')) {
+        entry.target.style.animationPlayState = 'running';
+        entry.target.classList.add('animated-in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  animatedEls.forEach(el => {
+    // Set animation-delay if specified
+    const delay = el.getAttribute('data-animate-delay');
+    if (delay) el.style.animationDelay = `${parseInt(delay, 10) / 1000}s`;
+    // Pause animation initially
+    el.style.animationPlayState = 'paused';
+    observer.observe(el);
+  });
+});
