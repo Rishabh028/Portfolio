@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- HEADER -->
     <header class="header scroll-header" id="header">
         <nav class="nav">
             <a href="#" class="nav__logo">Portfolio</a>
@@ -20,143 +19,149 @@
                 <li><a href="#projects" class="nav__link">Projects</a></li>
                 <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
+            <i class="fas fa-moon theme-toggle" id="theme-toggle"></i>
             <div class="nav__toggle">
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
 
-    <!-- HERO SECTION -->
     <section class="hero" id="home">
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">Hello! I'm Rishabh Rajak</h1>
-                <h2 class="hero-subtitle">Electronics & Communication Engineer</h2>
-                <p class="hero-description">Currently studying at <b>IIT Guwahati</b></p>
-                <a href="Portfolio/IIT_G_Resume.pdf" download="Rishabh's Resume.pdf" class="download-btn">
+                <h2 class="hero-subtitle">Electronics & Communication Engineer | Full-Stack Developer | Tech Enthusiast</h2>
+                <p class="hero-description">
+                    🎓 B.Tech from <b>IIT Guwahati</b> in Electronics & Communication Engineering. <br>
+                </p>
+                <a href="Resume.pdf" download="Rishabh's Resume.pdf" class="download-btn">
                     <i class="fas fa-download"></i> Download My Resume
                 </a>
             </div>
             <div class="hero-image">
-                <img src="Portfolio/ProfilePic.jpg" alt="Profile Picture">
+                <img src="images/ProfilePic.jpg" alt="Profile Picture">
             </div>
         </div>
     </section>
-<!-- QUALIFICATIONS SECTION -->
-<section class="section" id="education">
-    <h2 class="section-title" data-animate>Qualification</h2>
-    <div class="education-grid">
-        <!-- IIT Guwahati -->
-        <div class="education-card" data-animate data-animate-delay="100">
-            <div class="education-img-container">
-                <img src="Portfolio/IITG Large Logo.gif" alt="IIT Guwahati" class="education-img">
+
+    <section class="section" id="education">
+        <h2 class="section-title" data-animate>Qualification</h2>
+        <div class="education-grid">
+            <div class="education-card" data-animate data-animate-delay="100">
+                <img src="images/IITG Large Logo.gif" alt="IIT Guwahati Logo" class="education-logo">
+                <h3 class="education-institute">Indian Institute of Technology, <br>Guwahati</h3>
+                <p class="education-degree">B.Tech in Electronics and Communication Engineering</p>
+                <p class="education-years">2022 - 2026</p>
+                <a href="assets/documents/UG_Grade_Card.pdf" download="Rishabh_Rajak_IITG_UG_Grade_Card.pdf" class="education-button">
+                    <i class="fas fa-download"></i> Download Grade Card
+                </a>
             </div>
-            <div class="education-info">
-                <h3>Indian Institute of Technology, Guwahati</h3>
-                <p>B.Tech in Electronics and Communication Engineering</p>
-                <p class="education-duration">2022 - 2026</p>
-                <div class="education-actions">
-                    <a href="Portfolio/UG_Grade_Card.pdf" download="Rishabh_Rajak_IITG_UG_Grade_Card.pdf" class="btn download-btn">
-                        <i class="fas fa-download"></i> Download Grade Card
-                    </a>
-                </div>
+    
+            <div class="education-card" data-animate data-animate-delay="200">
+                <img src="images/KV LOGO.png" alt="Kendriya Vidyalaya Logo" class="education-logo">
+                <h3 class="education-institute">Kendriya Vidyalaya No-1 <br>Ishapore</h3>
+                <p class="education-degree">Class XII (CBSE)</p>
+                <p class="education-years">2020 - 2022</p>
+                <a href="class12_marksheet.pdf" download="Rishabh_Rajak_Class12_Marksheet.pdf" class="education-button">
+                    <i class="fas fa-download"></i> Download Marksheet
+                </a>
+            </div>
+    
+            <div class="education-card" data-animate data-animate-delay="300">
+                <img src="images/KV LOGO.png" alt="Kendriya Vidyalaya Logo" class="education-logo">
+                <h3 class="education-institute">Kendriya Vidyalaya No-1 <br>Ishapore</h3>
+                <p class="education-degree">Class X (CBSE)</p>
+                <p class="education-years">2010 - 2020</p>
+                <a href="class10_marksheet.pdf" download="Rishabh_Rajak_Class10_Marksheet.pdf" class="education-button">
+                    <i class="fas fa-download"></i> Download Marksheet
+                </a>
             </div>
         </div>
+    </section>
 
-        <!-- Class 12 -->
-        <div class="education-card" data-animate data-animate-delay="200">
-            <div class="education-img-container">
-                <img src="Portfolio/KV LOGO.png" alt="CBSE" class="education-img">
-            </div>
-            <div class="education-info">
-                <h3>Kendriya Vidyalaya No-1 Ishapore</h3>
-                <p>Class XII (CBSE)</p>
-                <p class="education-duration">2020 - 2022</p>
-                <div class="education-actions">
-                    <a href="Portfolio/class12_marksheet.pdf" download="Rishabh_Rajak_Class12_Marksheet.pdf" class="btn download-btn">
-                        <i class="fas fa-download"></i> Download Marksheet
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Class 10 -->
-        <div class="education-card" data-animate data-animate-delay="300">
-            <div class="education-img-container">
-                <img src="Portfolio/KV LOGO.png" alt="CBSE" class="education-img">
-            </div>
-            <div class="education-info">
-                <h3>Kendriya Vidyalaya No-1 Ishapore</h3>
-                <p>Class X (CBSE)</p>
-                <p class="education-duration">2010 - 2020</p>
-                <div class="education-actions">
-                    <a href="Portfolio/class10_marksheet.pdf" download="Rishabh_Rajak_Class10_Marksheet.pdf" class="btn download-btn">
-                        <i class="fas fa-download"></i> Download Marksheet
-                    </a>
-                </div>
-            </div>
+    <section class="section" id="skills">
+    <h2 class="section-title" data-animate>Technologies & Skills</h2>
+    <div class="skills-sphere-container" data-animate data-animate-delay="200">
+        <div id="center-skill-display"></div> <div class="skills-sphere-core"></div> <div class="skills-orbit-container">
+            <ul class="skills-orbit" id="orbit1">
+                <li class="skill-icon" data-skill="html" title="HTML5"><img src="images/html.svg.jpg" alt="HTML5"></li>
+                <li class="skill-icon" data-skill="css" title="CSS3"><img src="images/css.svg.jpg" alt="CSS3"></li>
+                <li class="skill-icon" data-skill="javascript" title="JavaScript"><img src="images/javascript.svg.jpg" alt="JavaScript"></li>
+                <li class="skill-icon" data-skill="react" title="React"><img src="images/react.svg_1.png" alt="React"></li>
+                <li class="skill-icon" data-skill="mysql" title="MySQL"><img src="images/mysql.svg.png" alt="MySQL"></li>
+                <li class="skill-icon" data-skill="mongodb" title="MongoDB"><img src="images/mongodb.svg.png" alt="MongoDB"></li>
+                <li class="skill-icon" data-skill="git" title="Git"><img src="images/git.svg.jpg" alt="Git"></li>
+                <li class="skill-icon" data-skill="github" title="GitHub"><img src="images/github.svg.jpg" alt="GitHub"></li>
+            </ul>
+            <ul class="skills-orbit" id="orbit2">
+                <li class="skill-icon" data-skill="python" title="Python"><img src="images/python.svg.png" alt="Python"></li>
+                <li class="skill-icon" data-skill="cplusplus" title="C++"><img src="images/cplusplus.svg.jpg" alt="C++"></li>
+                <li class="skill-icon" data-skill="c" title="C Language"><img src="images/C.png" alt="C Language"></li>
+                <li class="skill-icon" data-skill="arduino" title="Arduino"><img src="images/arduino.svg.jpg" alt="Arduino"></li>
+                <li class="skill-icon" data-skill="linux" title="Linux"><img src="images/linux.svg.jpg" alt="Linux"></li>
+                <li class="skill-icon" data-skill="windows" title="Windows"><img src="images/windows.svg_1.png" alt="Windows"></li>
+                <li class="skill-icon" data-skill="autodesk" title="Autodesk"><img src="images/autodesk.svg.jpg" alt="Autodesk"></li>
+                <li class="skill-icon" data-skill="postman" title="Postman"><img src="images/postman.svg.png" alt="Postman"></li>
+                <li class="skill-icon" data-skill="nextjs" title="NextJs"><img src="images/nextjs.svg.png" alt="NextJs"></li>
+            </ul>
         </div>
     </div>
 </section>
-    <!-- SKILLS SECTION -->
-    <section class="section" id="skills">
-        <h2 class="section-title" data-animate>Skills</h2>
-        <div class="skills-card" data-animate data-animate-delay="200">
-            <ul class="skills-list">
-                <li class="skills-item">Programming : Python, C/C++</li>
-                <li class="skills-item">Web/ App Technologies : HTML, CSS, JavaScript, React</li>
-                <li class="skills-item">Database Management : MySQL, MongoDB</li>
-                <li class="skills-item">Operationg Systems : Windows, Linux</li>
-                <li class="skills-item">Micellaneous : Git/Github, Arduino IDE, Autodesk</li>
-            </ul>
-        </div>
-    </section>
 
-    <!-- PROJECTS SECTION -->
     <section class="section" id="projects">
         <h2 class="section-title" data-animate>Projects</h2>
-        <div class="projects-grid">
-            <!-- Add this with your other project cards -->
-            <div class="project-card" data-animate data-animate-delay="200" onclick="openProjectModal('bingochat')">
-                    <img src="Portfolio/BingoChat.png" alt="BingoChat" class="project-img">
-                <div class="project-info">
-                        <h3>BingoChat</h3>
-                        <p>Real-time Web-based Chat Application</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Socket.IO</span>
+        <div class="featured-projects-list">
+            <div class="featured-project-row" data-animate data-animate-delay="200" onclick="openProjectModal('bingochat')">
+                <div class="featured-project-text">
+                    <h3 class="featured-project-title">BingoChat</h3>
+                    <div class="featured-project-desc">
+                        A real-time web-based chat application with a clean, responsive UI and efficient backend APIs. Built using React, Node.js, and Socket.IO.
+                    </div>
+                    <div class="featured-project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Socket.IO</span>
+                    </div>
+                </div>
+                <div class="featured-project-img">
+                    <img src="images/BingoChat.png" alt="BingoChat">
+                </div>
+            </div>
+            <div class="featured-project-row reverse" data-animate data-animate-delay="300" onclick="openProjectModal('finflow')">
+                <div class="featured-project-img">
+                    <img src="images/finflow.png" alt="Finflow">
+                </div>
+                <div class="featured-project-text">
+                    <h3 class="featured-project-title">Finflow</h3>
+                    <div class="featured-project-desc">
+                        IoT-enabled smart pond monitoring system that tracks water quality and alerts farmers. Uses Arduino, IoT, and NodeMCU.
+                    </div>
+                    <div class="featured-project-tech">
+                        <span>Arduino</span>
+                        <span>IoT</span>
+                        <span>NodeMCU</span>
                     </div>
                 </div>
             </div>
-            <div class="project-card" data-animate data-animate-delay="300" onclick="openProjectModal('finflow')">
-    <img src="Portfolio/finflow.png" alt="Finflow" class="project-img">
-    <div class="project-info">
-        <h3>Finflow</h3>
-        <p>IoT Smart Pond Monitoring System</p>
-        <div class="project-tech">
-            <span class="tech-tag">Arduino</span>
-            <span class="tech-tag">IoT</span>
-            <span class="tech-tag">NodeMCU</span>
-        </div>
-    </div>
-</div>
-<div class="project-card" data-animate data-animate-delay="300" onclick="openProjectModal('stayfinder')">
-    <img src="Portfolio/stayfinder.png" alt="StayFinder" class="project-img">
-    <div class="project-info">
-        <h3>StayFinder</h3>
-        <p>Online Hotel Booking Website</p>
-        <div class="project-tech">
-            <span class="tech-tag">HTML</span>
-            <span class="tech-tag">CSS</span>
-            <span class="tech-tag">JavaScript</span>
-        </div>
-    </div>
-</div>
+            <div class="featured-project-row" data-animate data-animate-delay="400" onclick="openProjectModal('stayfinder')">
+                <div class="featured-project-text">
+                    <h3 class="featured-project-title">StayFinder</h3>
+                    <div class="featured-project-desc">
+                        Online hotel booking website with interactive map, user authentication, and a seamless booking experience. Built with HTML, CSS, and JavaScript.
+                    </div>
+                    <div class="featured-project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="featured-project-img">
+                    <img src="images/stayfinder.png" alt="StayFinder">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="footer" id="contact">
         <div class="footer-content">
             <div>
@@ -185,11 +190,9 @@
         </div>
     </footer>
 
-    <!-- SCROLL TO TOP BUTTON -->
     <div class="scroll-top">
         <i class="fas fa-arrow-up"></i>
     </div>
-<!-- Add this right before </body> -->
 <div id="bingochat-modal" class="project-modal">
     <div class="modal-content">
         <span class="close-modal" onclick="closeModal('bingochat')">&times;</span>
@@ -204,7 +207,19 @@
         </div>
         <div class="modal-section">
             <h3>Overview</h3>
-            <p>BingoChat is a full-stack, real-time chat application designed with a modern web development stack. It enables seamless messaging through a clean, responsive UI and efficient backend APIs.</p>
+            <p>BingoChat is a full-stack, real-time chat application designed with a modern web development stack. It enables seamless messaging, secure user authentication, profile customization with avatars, and image sharing through a clean, responsive, and themeable user interface.</p>
+        </div>
+        <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul class="features-list">
+                <li><b>Real-time Messaging:</b> Instant bi-directional communication powered by Socket.io.</li>
+                <li><b>Secure User Authentication:</b> Robust signup, login, and session management using JSON Web Tokens (JWT).</li>
+                <li><b>Profile Management:</b> Users can customize their profile by updating their avatar and personal information.</li>
+                <li><b>Image Sharing:</b> Easily send and preview images directly within the chat, with cloud-based storage via Cloudinary.</li>
+                <li><b>Online Status Indicators:</b> See which users are currently online for real-time presence awareness.</li>
+                <li><b>Theme Customization:</b> A built-in theme switcher allows users to choose from over 30 DaisyUI themes for a personalized look.</li>
+                <li><b>Modern UX/UI:</b> Features a fully responsive design, animated loading skeletons, and non-intrusive toast notifications for a smooth user experience.</li>
+            </ul>
         </div>
         <div class="modal-section">
             <h3>Technologies Used</h3>
@@ -212,36 +227,25 @@
                 <div class="tech-column">
                     <h4>Frontend</h4>
                     <ul>
-                        <li>React</li>
-                        <li>Vite</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>React & Vite</li>
+                        <li>Tailwind CSS & DaisyUI</li>
+                        <li>Zustand (State Management)</li>
+                        <li>React Hot Toast (Notifications)</li>
+                        <li>Lucide React (Icons)</li>
+                        <li>Socket.io-client</li>
                     </ul>
                 </div>
                 <div class="tech-column">
                     <h4>Backend</h4>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Express.js</li>
-                    </ul>
-                </div>
-                <div class="tech-column">
-                    <h4>Other</h4>
-                    <ul>
-                        <li>Socket.IO</li>
-                        <li>npm</li>
+                        <li>Node.js & Express</li>
+                        <li>MongoDB & Mongoose</li>
+                        <li>Socket.io</li>
+                        <li>Cloudinary (Image Uploads)</li>
+                        <li>JWT & bcryptjs (Authentication)</li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="modal-section">
-            <h3>Key Features</h3>
-            <ul class="features-list">
-                <li>Real-time bi-directional communication using Socket.IO</li>
-                <li>Modular frontend and backend architecture</li>
-                <li>Responsive and user-friendly chat interface</li>
-                <li>Scalable code structure for future enhancements</li>
-            </ul>
         </div>
     </div>
 </div>
@@ -381,24 +385,35 @@
         </div>
     </div>
 </div>
-<!-- StayFinder Modal -->
 <div id="stayfinder-modal" class="project-modal">
     <div class="modal-content">
         <span class="close-modal" onclick="closeModal('stayfinder')">&times;</span>
-        <h2>StayFinder – Online Hotel Booking Website</h2>
+        <h2>StayFinder – Full-Stack Hotel Booking Platform</h2>
         <div class="modal-links">
             <a href="https://github.com/Rishabh028/StayFinder" target="_blank" class="modal-link">
                 <i class="fab fa-github"></i> GitHub
             </a>
-            <a href="https://rishabh028.github.io/StayFinder/index.html" target="_blank" class="modal-link">
+            <a href="https://zippy-gumdrop-c1bd83.netlify.app/" target="_blank" class="modal-link">
                 <i class="fas fa-external-link-alt"></i> Live Demo
             </a>
         </div>
         <div class="modal-section">
             <h3>Overview</h3>
             <p>
-                StayFinder is a modern, stylish Online Hotel Booking Website for discovering and booking unique stays. It features a beautiful UI, interactive map, user authentication, favorites, and a seamless booking experience.
+                StayFinder is a modern, full-stack online hotel booking platform designed to help users discover, book, and manage unique stays. It features a beautiful, responsive user interface powered by pure JavaScript, a secure backend with robust user authentication, and an interactive map-based search experience.
             </p>
+        </div>
+        <div class="modal-section">
+            <h3>Key Features</h3>
+            <ul class="features-list">
+                <li><b>Secure Authentication:</b> Full user sign-up and login functionality using JSON Web Tokens (JWT) for security and Bcrypt.js for password hashing.</li>
+                <li><b>Advanced Property Search:</b> Explore properties with comprehensive filters for location, price, type, amenities, and ratings.</li>
+                <li><b>Interactive Map View:</b> Visualize all property locations on an interactive map, powered by Leaflet.js.</li>
+                <li><b>Detailed Property Pages:</b> Click any property to view a detailed modal with more information, image galleries, and booking options.</li>
+                <li><b>Personalized Wishlist:</b> Logged-in users can add or remove properties from their personal wishlist with a single click.</li>
+                <li><b>Simulated Booking System:</b> A complete reservation flow allowing users to select dates with a Flatpickr date picker and simulate payment.</li>
+                <li><b>User Profile Management:</b> Users can access a dedicated profile page to view their personal information, past bookings, and saved wishlist.</li>
+            </ul>
         </div>
         <div class="modal-section">
             <h3>Technologies Used</h3>
@@ -407,29 +422,33 @@
                     <h4>Frontend</h4>
                     <ul>
                         <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
+                        <li>CSS3 (for custom styling and responsive design)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Leaflet.js (for interactive maps)</li>
+                        <li>Flatpickr (for date selection)</li>
+                        <li>Font Awesome (for icons)</li>
                     </ul>
                 </div>
                 <div class="tech-column">
-                    <h4>Other</h4>
+                    <h4>Backend</h4>
                     <ul>
-                        <li>Leaflet.js (Maps)</li>
-                        <li>Font Awesome (Icons)</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB Atlas (Cloud NoSQL Database)</li>
+                        <li>Mongoose (Object Data Modeling)</li>
+                        <li>JSON Web Tokens (JWT)</li>
+                        <li>Bcrypt.js (Password Hashing)</li>
+                        <li>CORS & Dotenv</li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="modal-section">
-            <h3>Key Features</h3>
+         <div class="modal-section">
+            <h3>Deployment</h3>
+            <p>The application is deployed with a decoupled "Jamstack" architecture for performance and scalability:</p>
             <ul class="features-list">
-                <li>Smart search by location, dates, and guests</li>
-                <li>Property listings with ratings and prices</li>
-                <li>Wishlist and favorites</li>
-                <li>Animated date picker and overlays</li>
-                <li>Language & currency switcher</li>
-                <li>Interactive map for property locations</li>
-                <li>Responsive, mobile-friendly design</li>
+                <li>The frontend is deployed as a static site using <b>Netlify</b>.</li>
+                <li>The backend Node.js API is deployed as a web service on <b>Render</b>.</li>
             </ul>
         </div>
     </div>
