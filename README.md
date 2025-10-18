@@ -42,7 +42,7 @@ This site showcases my education, skills, projects, and achievements as an Elect
 ---
 ## 🚀 Demo
 
-[**Live Demo on GitHub Pages**](https://rishabh028.github.io/Portfolio.github.io/)  
+[**Live Demo 1**](https://rishabh028.github.io/Portfolio.github.io/)  [**Live Demo 2**](https://pixel-pulse-studio-96.lovable.app/)  
 
 ---
 
