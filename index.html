@@ -145,18 +145,19 @@
             </div>
             <div class="featured-project-row" data-animate data-animate-delay="400" onclick="openProjectModal('stayfinder')">
                 <div class="featured-project-text">
-                    <h3 class="featured-project-title">StayFinder</h3>
+                    <h3 class="featured-project-title">StayFinder Pro</h3>
                     <div class="featured-project-desc">
-                        Online hotel booking website with interactive map, user authentication, and a seamless booking experience. Built with HTML, CSS, and JavaScript.
+                        A full-stack hotel booking platform featuring secure user authentication, advanced search with an interactive map, and host functionalities.
                     </div>
                     <div class="featured-project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Tailwind</span>
                     </div>
                 </div>
                 <div class="featured-project-img">
-                    <img src="Images/stayfinder.png" alt="StayFinder">
+                    <img src="Images/stayfinder.png" alt="StayFinder Pro">
                 </div>
             </div>
             <div class="featured-project-row reverse" data-animate data-animate-delay="500" onclick="openProjectModal('codeverse')">
@@ -175,7 +176,6 @@
                     </div>
                 </div>
             </div>
-            <!-- === NEW PROJECT ADDED HERE === -->
             <div class="featured-project-row" data-animate data-animate-delay="600" onclick="openProjectModal('dsa-visualizer')">
                 <div class="featured-project-text">
                     <h3 class="featured-project-title">Data Structure Visualizer</h3>
@@ -227,7 +227,6 @@
         <i class="fas fa-arrow-up"></i>
     </div>
     
-    <!-- === MODALS START HERE === -->
     <div id="bingochat-modal" class="project-modal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal('bingochat')">&times;</span>
@@ -424,19 +423,19 @@
     <div id="stayfinder-modal" class="project-modal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal('stayfinder')">&times;</span>
-            <h2>StayFinder – Full-Stack Hotel Booking Platform</h2>
+            <h2>StayFinder Pro – Full-Stack Hotel Booking Platform</h2>
             <div class="modal-links">
                 <a href="https://github.com/Rishabh028/StayFinder" target="_blank" class="modal-link">
                     <i class="fab fa-github"></i> GitHub
                 </a>
-                <a href="https://zippy-gumdrop-c1bd83.netlify.app/" target="_blank" class="modal-link">
+                <a href="https://stay-finder-75qt.vercel.app/" target="_blank" class="modal-link">
                     <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
             </div>
             <div class="modal-section">
                 <h3>Overview</h3>
                 <p>
-                    StayFinder is a modern, full-stack online hotel booking platform designed to help users discover, book, and manage unique stays. It features a beautiful, responsive user interface powered by pure JavaScript, a secure backend with robust user authentication, and an interactive map-based search experience.
+                    StayFinder Pro is a modern, full-stack online hotel booking platform designed to help users discover, book, and manage unique stays. It features a beautiful, responsive user interface, a secure backend with robust user authentication, and host functionalities for property management.
                 </p>
             </div>
             <div class="modal-section">
@@ -445,10 +444,10 @@
                     <li><b>Secure Authentication:</b> Full user sign-up and login functionality using JSON Web Tokens (JWT) for security and Bcrypt.js for password hashing.</li>
                     <li><b>Advanced Property Search:</b> Explore properties with comprehensive filters for location, price, type, amenities, and ratings.</li>
                     <li><b>Interactive Map View:</b> Visualize all property locations on an interactive map, powered by Leaflet.js.</li>
-                    <li><b>Detailed Property Pages:</b> Click any property to view a detailed modal with more information, image galleries, and booking options.</li>
-                    <li><b>Personalized Wishlist:</b> Logged-in users can add or remove properties from their personal wishlist with a single click.</li>
-                    <li><b>Simulated Booking System:</b> A complete reservation flow allowing users to select dates with a Flatpickr date picker and simulate payment.</li>
-                    <li><b>User Profile Management:</b> Users can access a dedicated profile page to view their personal information, past bookings, and saved wishlist.</li>
+                    <li><b>Image Uploads:</b> Hosts can upload multiple high-quality images for their properties, stored on Cloudinary.</li>
+                    <li><b>Host Functionality:</b> A dedicated dashboard for hosts to add, edit, and manage their property listings and view incoming bookings.</li>
+                    <li><b>Real Booking System:</b> A complete reservation flow allowing users to select dates and confirm bookings.</li>
+                    <li><b>User Profile Management:</b> Users can access a dedicated profile page to view their past bookings and manage their listed properties.</li>
                 </ul>
             </div>
             <div class="modal-section">
@@ -457,21 +456,20 @@
                     <div class="tech-column">
                         <h4>Frontend</h4>
                         <ul>
-                            <li>HTML5</li>
-                            <li>CSS3 (for custom styling and responsive design)</li>
-                            <li>JavaScript (ES6+)</li>
-                            <li>Leaflet.js (for interactive maps)</li>
-                            <li>Flatpickr (for date selection)</li>
-                            <li>Font Awesome (for icons)</li>
+                            <li>React & Vite</li>
+                            <li>Tailwind CSS</li>
+                            <li>Zustand (State Management)</li>
+                            <li>React Query (Data Fetching)</li>
+                            <li>React Router DOM</li>
+                            <li>Leaflet.js (Maps)</li>
                         </ul>
                     </div>
                     <div class="tech-column">
                         <h4>Backend</h4>
                         <ul>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>MongoDB Atlas (Cloud NoSQL Database)</li>
-                            <li>Mongoose (Object Data Modeling)</li>
+                            <li>Node.js & Express.js</li>
+                            <li>MongoDB Atlas & Mongoose</li>
+                            <li>Cloudinary (Image Storage)</li>
                             <li>JSON Web Tokens (JWT)</li>
                             <li>Bcrypt.js (Password Hashing)</li>
                             <li>CORS & Dotenv</li>
@@ -481,9 +479,9 @@
             </div>
              <div class="modal-section">
                 <h3>Deployment</h3>
-                <p>The application is deployed with a decoupled "Jamstack" architecture for performance and scalability:</p>
+                <p>The application is deployed with a decoupled architecture for performance and scalability:</p>
                 <ul class="features-list">
-                    <li>The frontend is deployed as a static site using <b>Netlify</b>.</li>
+                    <li>The frontend React application is deployed on <b>Vercel</b>.</li>
                     <li>The backend Node.js API is deployed as a web service on <b>Render</b>.</li>
                 </ul>
             </div>
@@ -546,7 +544,6 @@
         </div>
     </div>
 
-    <!-- === NEW MODAL ADDED HERE === -->
     <div id="dsa-visualizer-modal" class="project-modal">
         <div class="modal-content">
             <span class="close-modal" onclick="closeModal('dsa-visualizer')">&times;</span>
@@ -555,7 +552,7 @@
                 <a href="https://github.com/Rishabh028/Data-Structure--Visualization" target="_blank" class="modal-link">
                     <i class="fab fa-github"></i> GitHub
                 </a>
-                <a href="https://rishabh028.github.io/Data-Structure--Visualization/" target="_blank" class="modal-link">
+                <a href="https://data-structure-visualization-alpha.vercel.app/" target="_blank" class="modal-link">
                     <i class="fas fa-external-link-alt"></i> Live Demo
                 </a>
             </div>
@@ -591,6 +588,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
